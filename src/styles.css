@@ -102,3 +102,55 @@ ul, li {
   width: 300px;
 }
 
+/*Main*/
+
+.main {
+  padding: 1.5em;
+}
+
+.main__title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-rows: repeat(600px);
+  gap: 3em;
+}
+
+.card__image-container {
+  width: 100%;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-card {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5em;
+}
+
+.card__information {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.project-name {
+  font-size: 1.5rem;
+  margin-left: 1em;
+}
+
+.project-icon {
+  width: 35px;
+}
+
+.project-description {
+  width: 80%;
+  align-self: center;
+}
