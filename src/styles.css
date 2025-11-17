@@ -1,0 +1,39 @@
+/*General*/
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url(fonts/Playfair_Display/static/PlayfairDisplay-Regular.woff2) format("woff2");
+  font-size: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url(fonts/Playfair_Display/static/PlayfairDisplay-Bold.woff2) format("woff2");
+  font-size: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto/static/Roboto-Regular.woff2) format("woff2");
+  font-size: 500;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
