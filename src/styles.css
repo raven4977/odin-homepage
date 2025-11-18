@@ -175,6 +175,7 @@ h1, h2, h3, h4, h5 {
 
 .contact-icon {
   display: none;
+  width: 25px;
 }
 
 .contact-number {
@@ -290,5 +291,15 @@ h1, h2, h3, h4, h5 {
 
   .footer-img {
     height: 100%;
+  }
+
+  .information__contact-info {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .contact-icon {
+    display: block;
   }
 }
