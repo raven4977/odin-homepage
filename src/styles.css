@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5 {
   line-height: 150%;
   font-size: 1.3rem;
   z-index: 2;
+  background-color: white;
 }
 
 .about-container__title {
@@ -301,5 +302,42 @@ h1, h2, h3, h4, h5 {
 
   .contact-icon {
     display: block;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 1000px) {
+  /*Header*/
+  .header {
+    padding: 3em 2em 0 4em;
+  }
+
+  .header__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__profile-container {
+    width: 50%;
+  }
+
+  .header__title {
+    left: 12%;
+    bottom: 0;
+  }
+
+  .about-container {
+    width: 50%;
+    height: 400px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 2.5em 1em 1em 1em;
+  }
+
+  .about-container__title {
+    align-self: normal;
+  }
+
+  .header-nav {
+    align-self: end;
   }
 }
