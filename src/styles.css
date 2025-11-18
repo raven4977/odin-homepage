@@ -216,7 +216,8 @@ ul, li {
   .header__title {
     top: 0; 
     left: 70%; 
-    white-space: nowrap; 
+    font-size: 2rem;
+    white-space: nowrap;
   }
 
   .header__container {
