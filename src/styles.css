@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5 {
 
 .footer__nav-list {
   display: flex;
-  justify-content: space-around;
+  gap: 1em;
 }
 
 
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5 {
   }
 
   .footer__information {
-    padding: 3em 0;
+    padding: 0;
     width: 50%;
   }
 
@@ -353,5 +353,40 @@ h1, h2, h3, h4, h5 {
 
   .project-img {
     height: 100%;
+  }
+
+  /*Footer*/
+
+  .footer {
+    display: flex;
+    padding: 3em 3em;
+    justify-content: space-between;
+    align-items: normal;
+  }
+
+  .footer__information {
+    padding: 0;
+    width: 50%;
+  }
+
+  .footer__image-container {
+    width: 50%;
+    max-width: 500px;
+    height: 450px;
+    margin-top: 0;
+  }
+
+  .footer-img {
+    height: 100%;
+  }
+
+  .information__contact-info {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .contact-icon {
+    display: block;
   }
 }
